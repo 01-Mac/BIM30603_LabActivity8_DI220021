@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "279413068952",
+    "project_id": "my-cloud-db-ffde9",
+    "storage_bucket": "my-cloud-db-ffde9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279413068952:android:9a2d1340353543593faced",
+        "android_client_info": {
+          "package_name": "com.example.labactivity8"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaU5LCJQYM2sU8KDUQDG62uYfjxsKCQ7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
