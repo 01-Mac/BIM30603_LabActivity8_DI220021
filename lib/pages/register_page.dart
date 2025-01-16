@@ -3,6 +3,7 @@ import 'package:labactivity8/auth/auth_method.dart';
 import 'package:labactivity8/components/my_button.dart';
 import 'package:labactivity8/components/my_snackbar.dart';
 import 'package:labactivity8/components/my_textfield.dart';
+import 'package:labactivity8/pages/handyman_list_page.dart';
 import 'package:labactivity8/pages/home_page.dart';
 
 class RegisterPage extends StatefulWidget {
@@ -44,7 +45,7 @@ class _RegisterPageState extends State<RegisterPage> {
       // Navigate to HomePage
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
-          builder: (context) => const HomePage(),
+          builder: (context) => const HandymanListPage(),
         ),
       );
     } else {

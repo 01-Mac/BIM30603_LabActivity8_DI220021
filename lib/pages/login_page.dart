@@ -3,6 +3,7 @@ import 'package:labactivity8/auth/auth_method.dart';
 import 'package:labactivity8/components/my_button.dart';
 import 'package:labactivity8/components/my_snackbar.dart';
 import 'package:labactivity8/components/my_textfield.dart';
+import 'package:labactivity8/pages/handyman_list_page.dart';
 import 'package:labactivity8/pages/home_page.dart';
 
 class LoginPage extends StatefulWidget {
@@ -40,13 +41,9 @@ class _LoginPageState extends State<LoginPage> {
     );
 
     if (res == "success") {
-      setState(() {
-        isLoading = false;
-      });
-      // Navigate to the home screen
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
-          builder: (context) => const HomePage(),
+          builder: (context) => const HandymanListPage(),
         ),
       );
     } else {
